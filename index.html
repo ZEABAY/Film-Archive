@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Film Arşivi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="bg-db">
+    <div class="text-center mt-2 fs-1 fw-bolder text-dp" id="tag">
+        <h1>FİLM ARŞİVİ</h1>
+    </div>
+
+    <div class="container ">
+        <div class="row p-3 hidden-md-up">
+            <div class="col-10 offset-1">
+                <div class="row" id="films">
+
+                    <!--
+                    <div class="col-3">
+                        <div class="card mb-5 custom-width bg-b " style="width:13rem; height: 33.5rem;">
+                            <div class="text-center">
+
+                                <img src="https://picsum.photos/200/300" class=" mt-2 card-img-top "
+                                    style="width:12rem;">
+                            </div>
+                            <div class="card-body">
+                                <div style="position : absolute; top :300px;">
+                                    <h5 class="  text-lb">
+                                        TİTLE
+                                    </h5>
+                                </div>
+                                <div style="position : absolute; bottom :70px;">
+                                    <h6 class=" text-b">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </h6>
+                                </div>
+                                <a href="#" class="bg-lp border-p btn btn-primary text-info"
+                                    style="position : absolute; bottom :10px; left: 10px;">Filme Git</a>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <div id="hidden-form">
+        <button class="open-btn">Film Ekle</button>
+
+
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+
+                <div class="info-body text-center">
+
+                </div>
+                <h1 class="text-dark">Yeni Film Ekle</h1>
+
+                <label for="name"><b>Filmin Adı</b></label>
+                <input type="text" class="name" autocomplete="off" required>
+
+                <label for="director"><b>Yönetmen</b></label>
+                <input type="text" class="director" autocomplete="off" required>
+
+                <label for="pic"><b>Filmin Afişi</b></label>
+                <input type="text" class="pic" autocomplete="off" required>
+
+                <label for="link"><b>Adres</b></label>
+                <input type="text" class="url" autocomplete="off" required>
+
+                <button type="submit" class="bg-lp text-info add-btn">Filmi Ekle</button>
+                <button type="button" class="cancel-btn">Kapat</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+    <script src="app.js"></script>
+    <script src="film.js"></script>
+    <script src="ui.js"></script>
+    <script src="storage.js"></script>
+</body>
+
+</html>
