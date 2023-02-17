@@ -8,6 +8,6 @@
 4. Local Storage
 5. Popup to add film
 6. Class
-7. Use clear(); on web console to clear local storage
+7. Use clear(); on web console to clear local storage  ( will be added as clear all button ) 
 
 ### ZEABAY
